@@ -102,14 +102,14 @@ code {
   padding: 2rem 0;
 }
 
-.about-header {
+.section-header {
   color: #111;
   font-size: 2.2rem;
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-.about-header-line {
+.section-header-line {
   background-color: limegreen;
   height: 4px;
   border-radius: 4px;
@@ -121,7 +121,7 @@ code {
   font-size: 1rem;
 }
 
-.about-span {
+.bold-span {
   font-weight: bold;
 }
 
@@ -150,4 +150,36 @@ code {
   border-radius: 4px;
   font-weight: 600;
   color: #666;
+}
+
+#Projects {
+  margin: 1.1rem;
+  padding: 2rem 0;
+}
+
+.projects-intro {
+  color: #555;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.project-name {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+.project-description {
+  color: #666;
+  font-size: 1.05rem;
+}
+
+.project-button {
+  background-color: limegreen;
+  border-radius: 4px;
+  padding: 10px 40px;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
