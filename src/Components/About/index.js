@@ -63,7 +63,6 @@ const About = () => {
                     <div className="skill">Git</div>
                     <div className="skill">GitHub</div>
                     <div className="skill">Responsive Design</div>
-                    <div className="skill">Python</div>
                 </div>
 
             </div>
