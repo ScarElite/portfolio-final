@@ -1,26 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Grapevine from "../../assets/images/grapevine-preview-desktop.png"
 import Nobleoak from "../../assets/images/nobleoak-preview-desktop.png"
 import AlternativeEndings from "../../assets/images/ae-preview-desktop.png"
 import DeepThoughts from "../../assets/images/deepthoughts-preview-desktop.png"
 
 const Projects = () => {
-    const handleProject1 = () => {
-        console.log("Project 1 Clicked!")
-    }
-
-    const handleProject2 = () => {
-        console.log("Project 2 Clicked!")
-    }
-
-    const handleProject3 = () => {
-        console.log("Project 3 Clicked!")
-    }
-
-    const handleProject4 = () => {
-        console.log("Project 4 Clicked!")
-    }
-
     return (
         <section id="Projects">
             <div className="section-header-div flex flex-col items-center my-5">
@@ -40,7 +25,9 @@ const Projects = () => {
                     </a>
                     <h1 className="project-name text-center mt-8 mb-4">The Grapevine Senior Placement Services</h1>
                     <p className="project-description text-center">Built an intuitive, responsive website for The Grapevine Senior Placement Services using <span className="bold-span">React, Tailwind CSS, and JavaScript.</span> The site provides an easy way for families to access resources and find ideal senior care communities in Southeast Michigan based on individualized needs and preferences.</p>
-                    <button className="project-button my-6" onClick={handleProject1}>More Details</button>
+                    <Link to="/Grapevine">
+                        <button className="project-button my-6">More Details</button>
+                    </Link>
                 </div>
 
                 <div className="project flex flex-col items-center my-20">
@@ -49,7 +36,9 @@ const Projects = () => {
                     </a>
                     <h1 className="project-name text-center mt-8 mb-4">Noble Oak Solutions</h1>
                     <p className="project-description text-center">Created a responsive real estate website for Noble Oak Solutions using <span className="bold-span">React, Tailwind CSS, and JavaScript.</span> The site enables clients in NC to easily access services for buying, selling, financing, and inheriting property, with a focus on mortgage relief options and avoiding foreclosure.</p>
-                    <button className="project-button my-6" onClick={handleProject2}>More Details</button>
+                    <Link to="/NobleOak">
+                        <button className="project-button my-6">More Details</button>
+                    </Link>
                 </div>
 
                 <div className="project flex flex-col items-center my-20">
@@ -58,7 +47,9 @@ const Projects = () => {
                     </a>
                     <h1 className="project-name text-center mt-8 mb-4">Alternative Endings</h1>
                     <p className="project-description text-center">Built an interactive movie website using <span className="bold-span">JavaScript, jQuery, Handlebars.js, Bootstrap, MySQL, and Express.js.</span> The platform enables film buffs to share and discuss alternative endings for movies through blog posts and comments. It also provides movie info, theaters, and search capabilities.</p>
-                    <button className="project-button my-6" onClick={handleProject3}>More Details</button>
+                    <Link to="/AlternativeEndings">
+                        <button className="project-button my-6">More Details</button>
+                    </Link>
                 </div>
 
                 <div className="project flex flex-col items-center my-20">
@@ -67,7 +58,9 @@ const Projects = () => {
                     </a>
                     <h1 className="project-name text-center mt-8 mb-4">Deep Thoughts</h1>
                     <p className="project-description text-center">Created a social media web application using <span className="bold-span">JavaScript and MongoDB.</span> Users can sign up, create posts, add friends, and interact through likes and comments. The site provides a basic yet engaging platform for sharing thoughts and connecting.</p>
-                    <button className="project-button my-6" onClick={handleProject4}>More Details</button>
+                    <Link to="/DeepThoughts">
+                        <button className="project-button my-6">More Details</button>
+                    </Link>
                 </div>
 
             </div>

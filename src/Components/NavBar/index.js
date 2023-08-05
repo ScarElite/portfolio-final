@@ -12,12 +12,6 @@ const NavBar = () => {
     setIcon(menuOpen ? hamburger : close);
   };
 
-//   const handleMainClick = () => {
-//       window.scrollTo({ top: 0, behavior: "smooth" });
-//       setIcon(hamburger);
-//       setMenuOpen(!menuOpen)
-//   };
-
   return (
     <nav className={menuOpen ? "menu-open" : ""}>
       <header className="flex justify-between" id="Header">
@@ -39,7 +33,7 @@ const NavBar = () => {
         <div className="menu">
           <ul>
             <li>
-              <a href="#Home" onClick={handleHamburgerClick}>
+              <a href="/#Home" onClick={handleHamburgerClick}>
                 Home
               </a>
             </li>
