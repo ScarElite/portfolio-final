@@ -38,17 +38,17 @@ const NavBar = () => {
               </a>
             </li>
             <li>
-              <a href="#About" onClick={handleHamburgerClick}>
+              <a href="/#About" onClick={handleHamburgerClick}>
                 About
               </a>
             </li>
             <li>
-              <a href="#Projects" onClick={handleHamburgerClick}>
+              <a href="/#Projects" onClick={handleHamburgerClick}>
                 Projects
               </a>
             </li>
             <li>
-              <a href="#Contact" onClick={handleHamburgerClick}>
+              <a href="/#Contact" onClick={handleHamburgerClick}>
                 Contact
               </a>
             </li>

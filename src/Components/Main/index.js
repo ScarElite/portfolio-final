@@ -1,10 +1,6 @@
 import React from "react";
 
 const Main = () => {
-    const handleButtonClick = () => {
-        console.log("Projects Button Clicked!")
-    }
-
     return (
         <section id="Main" className="flex flex-col justify-around">
 
@@ -18,7 +14,7 @@ const Main = () => {
             </div>
 
             <div className="main-button-div flex justify-center">
-                <button className="main-button text-center" onClick={handleButtonClick}>PROJECTS</button>
+                <a href="#Projects" className="main-button text-center">PROJECTS</a>
             </div>
 
         </section>

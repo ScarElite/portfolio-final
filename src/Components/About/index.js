@@ -38,7 +38,7 @@ const About = () => {
                 </div>
 
                 <div className="about-button-div flex justify-start my-10">
-                    <button className="about-button text-center" onClick={handleButtonClick}>Contact</button>
+                    <a href="#Contact" className="about-button text-center">Contact</a>
                 </div>
 
             </div>
