@@ -24,7 +24,7 @@ const Projects = () => {
                         <img className="project-img" src={Grapevine} alt="The GRapevine Senior Placement Services Desktop Preview" />
                     </a>
                     <h1 className="project-name text-center mt-8 mb-4">The Grapevine Senior Placement Services</h1>
-                    <p className="project-description text-center">Built an intuitive, responsive website for The Grapevine Senior Placement Services using <span className="bold-span">React, Tailwind CSS, and JavaScript.</span> The site provides an easy way for families to access resources and find ideal senior care communities in Southeast Michigan based on individualized needs and preferences.</p>
+                    <p className="project-description text-center">Built an intuitive, responsive website for The Grapevine Senior Placement Services using <span className="bold-span">React, JavaScript, Tailwind CSS, and EmailJS.</span> The site provides an easy way for families to access resources and find ideal senior care communities in Southeast Michigan based on individualized needs and preferences.</p>
                     <Link to="/Grapevine">
                         <button className="project-button my-6">More Details</button>
                     </Link>
@@ -35,7 +35,7 @@ const Projects = () => {
                         <img className="project-img" src={Nobleoak} alt="Noble Oak Solutions Desktop Preview" />
                     </a>
                     <h1 className="project-name text-center mt-8 mb-4">Noble Oak Solutions</h1>
-                    <p className="project-description text-center">Created a responsive real estate website for Noble Oak Solutions using <span className="bold-span">React, Tailwind CSS, and JavaScript.</span> The site enables clients in NC to easily access services for buying, selling, financing, and inheriting property, with a focus on mortgage relief options and avoiding foreclosure.</p>
+                    <p className="project-description text-center">Created a responsive real estate website for Noble Oak Solutions using <span className="bold-span">React, JavaScript, Tailwind CSS, and EmailJS.</span> The site enables clients in NC to easily access services for buying, selling, financing, and inheriting property, with a focus on mortgage relief options and avoiding foreclosure.</p>
                     <Link to="/NobleOak">
                         <button className="project-button my-6">More Details</button>
                     </Link>

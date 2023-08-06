@@ -336,3 +336,82 @@ nav.menu-open #Header {
   font-size: 0.8rem;
   text-align: center;
 }
+
+/* Project Details Pages */
+#GrapevineDetails, #NobleOakDetails, #AlternativeEndingsDetails, #DeepThoughtsDetails {
+  margin: 2rem 1.1rem;
+  padding: 2rem 0;
+}
+
+.project-upper {
+  min-height: 92vh;
+}
+
+.project-title {
+  color: #000;
+  font-weight: bold;
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.project-title-grapevine {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.project-subheader {
+  color: #111;
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.project-details-button {
+  background-color: limegreen;
+  border-radius: 4px;
+  padding: 10px 10px;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 80%;
+}
+
+.project-details-header {
+  color: #111;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.project-details-overview {
+  color: #555;
+  font-size: 1.05rem;
+  font-weight: 400;
+}
+
+.project-collab {
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.project-details-link {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.project-details-link-button {
+  background-color: limegreen;
+  border-radius: 4px;
+  padding: 10px 40px;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 60%;
+}
+
+.github-icon {
+  cursor: not-allowed;
+}

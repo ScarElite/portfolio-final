@@ -57,6 +57,7 @@ function Grapevine() {
     <>
       <NavBar />
       <GrapevineDetails />
+      <Footer />
     </>
   )
 }
@@ -66,6 +67,7 @@ function NobleOak() {
     <>
       <NavBar />
       <NobleOakDetails />
+      <Footer />
     </>
   )
 }
@@ -75,6 +77,7 @@ function AlternativeEndings() {
     <>
       <NavBar />
       <AlternativeEndingsDetails />
+      <Footer />
     </>
   )
 }
@@ -84,6 +87,7 @@ function DeepThoughts() {
     <>
       <NavBar />
       <DeepThoughtsDetails />
+      <Footer />
     </>
   )
 }
