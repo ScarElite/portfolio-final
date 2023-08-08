@@ -433,6 +433,18 @@ nav.menu-open #Header {
   .main-button {
     width: 80%;
   }
+
+  .project-title-grapevine {
+    font-size: 2.1rem;
+  }
+
+  .project-details-header {
+    font-size: 1.5rem;
+  }
+
+  .project-details-overview {
+    font-size: 1.15rem;
+  }
 }
 
 @media screen and (min-width: 468px) {
@@ -442,6 +454,14 @@ nav.menu-open #Header {
 
   .main-statement {
     font-size: 1.4rem;
+  }
+
+  .project-title-grapevine {
+    font-size: 2.3rem;
+  }
+
+  .project-subheader {
+    font-size: 1.25rem;
   }
 }
 
@@ -522,5 +542,18 @@ nav.menu-open #Header {
 
   .footer-lower {
     font-size: 1rem;
+  }
+
+  .project-subheader {
+    font-size: 1.3rem;
+    padding: 0 10px;
+  }
+
+  .project-details-header {
+    font-size: 1.8rem;
+  }
+
+  .project-details-overview {
+    font-size: 1.25rem;
   }
 }
