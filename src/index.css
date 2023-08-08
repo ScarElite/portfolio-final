@@ -128,7 +128,7 @@ nav.menu-open #Header {
 .menu a {
   color: #333;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.2rem;
 }
 
 #Home {
@@ -419,4 +419,108 @@ nav.menu-open #Header {
 
 .github-icon {
   cursor: not-allowed;
+}
+
+@media screen and (min-width: 400px) {
+  .main-name {
+    font-size: 2.6rem;
+  }
+
+  .main-statement {
+    font-size: 1.2rem;
+  }
+
+  .main-button {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 468px) {
+  .main-name {
+    font-size: 3rem;
+  }
+
+  .main-statement {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  /* 520x768 Need to details page*/
+  .header-name {
+    font-size: 1.5rem;
+  }
+
+  .hamburger-icon {
+    scale: 0.6;
+  }
+
+  .menu a {
+    font-size: 1.4rem;
+  }
+
+  .main-statement {
+    padding: 0 1rem;
+  }
+
+  .main-button {
+    font-size: 1.6rem;
+  }
+
+  .section-header {
+    font-size: 2.5rem;
+  }
+
+  .about-header-2 {
+    font-size: 1.9rem;
+  }
+
+  #About p {
+    font-size: 1.1rem;
+  }
+
+  .about-button {
+    font-size: 1.6rem;
+  }
+
+  .projects-intro {
+    font-size: 1.2rem;
+  }
+
+  .project-name {
+    font-size: 2rem;
+  }
+
+  .project-description {
+    font-size: 1.2rem;
+  }
+
+  .project-button {
+    font-size: 1.6rem;
+    padding: 10px 80px;
+  }
+
+  .contact-intro {
+    font-size: 1.2rem;
+  }
+
+  .contact-form label, .contact-form input, .contact-form textarea {
+    font-size: 1.2rem;
+  }
+
+  .contact-button {
+    font-size: 1.6rem;
+  }
+
+  .footer-header {
+    font-size: 1.5rem;
+  }
+
+  .footer-subheader {
+    font-size: 1.05rem;
+  }
+
+  .footer-lower {
+    font-size: 1rem;
+  }
 }
