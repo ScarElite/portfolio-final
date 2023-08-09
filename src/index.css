@@ -557,3 +557,193 @@ nav.menu-open #Header {
     font-size: 1.25rem;
   }
 }
+
+@media screen and (min-width: 600px) {
+  .section-header {
+    font-size: 2.7rem;
+  }
+
+  .section-header-line {
+    margin-bottom: 2rem;
+  }
+
+  .about-header-2 {
+    font-size: 2.2rem;
+  }
+
+  #About p {
+    font-size: 1.25rem;
+  }
+
+  .about-button {
+    font-size: 1.7rem;
+  }
+
+  .skill {
+    font-size: 1.4rem;
+  }
+
+  .projects-intro, .contact-intro {
+    font-size: 1.4rem;
+  }
+
+  .project-name {
+    font-size: 2.2rem;
+  }
+
+  .project-description {
+    font-size: 1.25rem;
+  }
+
+  .project-button {
+    padding: 10px 100px;
+  }
+
+  .contact-form label, .contact-form input, .contact-form textarea {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #Header {
+    height: 120px;
+  }
+
+  .pfp-icon {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .header-name {
+    font-size: 2rem;
+  }
+
+  nav.menu-open .menu {
+    top: 120px;
+  }
+
+  .menu li a {
+    font-size: 1.6rem;
+  }
+  
+  #Main {
+    margin: 120px 1.1rem 1.1rem;
+  }
+
+  .main-name {
+    font-size: 3.4rem;
+  }
+
+  .main-statement {
+    font-size: 1.8rem;
+    padding: 0 1.4rem;
+  }
+
+  .main-button {
+    font-size: 2.2rem;
+    padding: 20px 100px;
+  }
+
+  .section-header {
+    font-size: 3rem;
+  }
+
+  .about-header-2 {
+    font-size: 2.5rem;
+  }
+
+  #About p {
+    font-size: 1.5rem;
+  }
+
+  .about-button {
+    font-size: 2rem;
+    padding: 12px 80px;
+  }
+
+  .skill {
+    font-size: 1.8rem;
+  }
+
+  .projects-intro, .contact-intro {
+    font-size: 1.8rem;
+  }
+
+  .project-name {
+    font-size: 2.6rem;
+  }
+
+  .project-description {
+    font-size: 1.5rem;
+  }
+
+  .project-button {
+    font-size: 2rem;
+    padding: 12px 120px;
+  }
+
+  .contact-form label, .contact-form input, .contact-form textarea {
+    font-size: 1.6rem;
+  }
+
+  .contact-button {
+    font-size: 2rem;
+    padding: 12px 0;
+  }
+
+  .footer-header {
+    font-size: 1.8rem;
+  }
+
+  .social-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .social-icon:nth-child(1) {
+    margin-right: 1.2rem;
+  }
+
+  .social-icon:nth-child(2), .social-icon:nth-child(3) {
+    margin: 0 1.2rem;
+  }
+
+  .footer-subheader {
+    font-size: 1.3rem;
+  }
+
+  .footer-lower {
+    font-size: 1.2rem;
+  }
+
+  .project-title-grapevine, .project-title {
+    font-size: 3rem;
+  }
+
+  .project-subheader {
+    font-size: 1.8rem;
+  }
+
+  .project-details-button {
+    font-size: 2rem;
+    padding: 20px 10px;
+  }
+
+  .project-details-header {
+    font-size: 2.4rem;
+  }
+
+  .project-details-overview {
+    font-size: 1.5rem;
+  }
+
+  .project-details-link {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .project-details-link-button {
+    font-size: 2rem;
+    padding: 15px 60px;
+  }
+}
